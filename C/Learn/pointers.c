@@ -42,6 +42,14 @@ int main(){
     fun_swap(&a,&b);
     printf("%d and %d\n",a,b);
 
+    int *ptra=&a; int *ptrb=&b;
+    printf("%u\n",ptra);
+    printf("%u\n",ptra+1);
+
+    printf("%u\n",ptrb);
+    printf("%d\n",ptra-ptrb);
+
+
     
 
     return 0;
