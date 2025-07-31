@@ -7,7 +7,7 @@ void main(){
     float rating = 4.5;
     char name = 'N';
 
-    printf("age is %d \n",age);         // \n gives newline 
+    printf("age is %d \n",age);         // \n gives newline \t gives newtab
     printf("name is %c \n",name);
     printf("rating is %f \n",rating);
 
