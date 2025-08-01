@@ -43,7 +43,7 @@ int main(){
 
     }
 
-   // fun_print_student_info(pcb);
+   fun_print_student_info(pcb);
 
     
     struct student *ptr = &s1;
