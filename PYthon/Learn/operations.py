@@ -23,3 +23,15 @@ print(b//a)
 a,b=5,-3
 print(a%b)
 print(b%a)
+
+print(2**3)
+
+name=input("Enter name : ")
+age=int(input("Enter age : "))
+rating=float(input("Enter rating : "))
+
+print(name)
+print("my age is : ",age,"and rating is : ",rating,"stars")
+
+
+print("THE END",end='')
