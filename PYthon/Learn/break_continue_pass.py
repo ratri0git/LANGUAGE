@@ -1,3 +1,8 @@
+
+for i in range(100):
+    pass
+
+
 i=0
 while i<19:
     i+=1
@@ -7,4 +12,6 @@ while i<19:
         break #end loop
     else:
         print(i)
+
+
     
