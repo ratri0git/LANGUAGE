@@ -18,12 +18,33 @@ print(marks[-2:-1])
 marks.append("nil")
 print(marks)
 
+marks = [1,4.5,3,10,0,1.0]
 # Sort in ascending order
 marks.sort()
 print(marks)
 
+
 # Sort in Descending order
 marks.sort(reverse=True)
 print(marks)
+
+# Reverse
+marks = [1,4.5,3,10,0,1.0]
+marks.reverse()
+print(marks)
+
+# Insert an element at index
+marks.insert(3,"new")
+print(marks)
+
+# Remove first instant of element
+marks.remove(1)
+print(marks)
+
+# Delete value at index
+marks.pop(2)
+print(marks)
+
+
 
 print("THE END",end='')
