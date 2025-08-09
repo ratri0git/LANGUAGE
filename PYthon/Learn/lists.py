@@ -2,6 +2,9 @@ marks = [10,"nil",25.5]
 print(marks)
 print(type(marks))
 
+#empty list
+empty_list = list()
+
 print(marks[1])
 marks[1] = 0
 print(marks)
