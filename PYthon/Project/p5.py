@@ -1,4 +1,4 @@
-# This program generates QR code
+# This program generates QR code for websites
 
 '''
 # Install set-up and activate and deactivate in virtual environment on terminal
