@@ -60,4 +60,8 @@ then
 
 fi
 
+# Generate random number between 0 and 32767
+echo $RANDOM
 
+# Show user ID of logged in user
+echo $UID
