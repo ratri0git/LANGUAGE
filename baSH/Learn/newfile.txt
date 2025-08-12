@@ -1,0 +1,8 @@
+/home/ratri0kali/LANGUAGE/baSH/Learn
+Tue Aug 12 18:08:30 IST 2025
+PING www.google.com (142.251.42.68) 56(84) bytes of data.
+64 bytes from bom12s21-in-f4.1e100.net (142.251.42.68): icmp_seq=1 ttl=119 time=16.7 ms
+
+--- www.google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 16.688/16.688/16.688/0.000 ms
