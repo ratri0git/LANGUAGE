@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -x
 
 # Over Write in File >
 touch newfile.txt

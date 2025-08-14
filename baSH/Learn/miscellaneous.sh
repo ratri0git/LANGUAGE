@@ -1,5 +1,44 @@
 #!/bin/bash
 
+'''
+# Enable debugging
+set -x  # On Top after shebang line
+
+set -e # stop script if any command fail
+
+'''
+
+'''
+# Run in background
+nohup ./Scriptname &
+
+'''
+
+'''
+# Automate Scripts
+at HH:MM AM/PM
+    Script_Path/Name
+ctrl+D
+
+# Check scheduled job
+atq
+
+# cancel Job
+atrm JobID
+
+'''
+
+'''
+# Periodic Scheduled job
+* * * * * cd Script_Path/Name
+
+# Check existing job
+crontab -l
+
+# open editor for crontab
+crontab -e
+
+'''
 
 if [[ $# -eq 0 ]]
 then
@@ -65,3 +104,7 @@ echo $RANDOM
 
 # Show user ID of logged in user
 echo $UID
+
+
+
+
