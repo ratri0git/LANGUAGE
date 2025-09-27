@@ -45,7 +45,8 @@ class students():
         self.name = name
         print("Welcome",self.name)
         self.marks = marks
-      Method    
+        
+      #Method    
     def fun_average_marks(self):
         sum = 0
         for mark in self.marks:
