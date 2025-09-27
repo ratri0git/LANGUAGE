@@ -105,6 +105,3 @@ echo $RANDOM
 # Show user ID of logged in user
 echo $UID
 
-
-
-
