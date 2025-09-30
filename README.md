@@ -57,7 +57,7 @@ git clone https://github.com/ratri0git/LANGUAGE.git
 - Tip: Use a Linux VM (e.g., VirtualBox) for a consistent experience.
 
 ## About Me
-I’m a beginner driven to master programming and pursue cybersecurity. This repo is setting the stage for ethical hacking and system security.
+I am driven pursue cybersecurity. This repo is setting the stage for ethical hacking and system security.
 
 Connect with me on:
 - **Discord**: ratri0nil
