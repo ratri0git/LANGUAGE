@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> forms in html used to collect user data like username id contact etc </p>
+
+    <form action="./action.php">
+        <p> input tag for taking inputs</p>
+        <input type="text" placeholder="Enter User Name">
+        <input type="password" placeholder="Enter password">
+
+        <p> label tag for screen reading and more </p>
+        <label for="1">
+        <p> radio tag to click any one from options </p>
+        <input type="radio" value="11" name="class" id="1"> class11
+        <br/>
+        </label>
+        <label for="2">
+        <input type="radio" value="12" name="class" id="2"> class12
+        </label>
+
+
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="101"> math
+        </label>
+        <label for="phy">
+            <input type="checkbox" value="phy" name="subject" id="102"> phy
+        </label>
+        <label for="bio">
+            <input type="checkbox" value="bio" name="subject" id="103"> bio
+        </label>
+
+        <p> use textarea tag for things like feedback forms</p>
+        <textarea name="feedback" id="101" placeholder="write your feedback">
+            feedback
+        </textarea>
+
+        <p>
+            drop down menu with select tag
+        </p>
+        <select name="city">
+            <option value="delhi">delhi</option>
+            <option value="bangalore">bangalore</option>
+            <option value="pune">pune</option>
+        </select>
+
+
+        <p>
+            submit input tag to submit form
+        </p>
+        <input type="submit" value="submit">
+
+
+    </form>
+
+</body>
+</html>
